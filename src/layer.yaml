@@ -1,0 +1,12 @@
+includes:
+  - layer:basic
+  - layer:apt
+  - interface:dns-zone
+options:
+  basic:
+    packages:
+      - debconf-utils
+      - bind9
+      - bind9utils
+      - krb5-kdc
+      - krb5-admin-server

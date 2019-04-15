@@ -1,0 +1,6 @@
+options:
+  realm:
+    type: string
+    default: EXAMPLE.COM
+    description: |
+      A Kerberos Realm to use.

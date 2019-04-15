@@ -1,0 +1,13 @@
+name: kerberos-test-infra
+summary: Sets up basic non-HA kerberos infrastructure for functional testing.
+maintainer: Dmitrii Shcherbakov <dmitrii.shcherbakov@canonical.com>
+description: |
+  Sets up basic non-HA kerberos infrastructure for functional testing.
+tags:
+  - testing
+subordinate: false
+series:
+  - bionic
+provides:
+  dns-zone:
+    interface: dns-zone
